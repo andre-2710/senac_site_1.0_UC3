@@ -1,26 +1,10 @@
-<!doctype html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Senac Site Online</title>
-  </head>
+{% extends "pages/base.html" %}
 
-  <body>
-    <header>
-      <h1>Senac Site Online</h1>
-      <p>Trabalho da UC3.</p>
-    </header>
+{% block title %}Home – Senac Site Online{% endblock %}
 
-    <main>
-      <section>
-        <h2>Mensagem do servidor</h2>
-        <p><strong>{{ mensagem }}</strong></p>
-      </section>
-    </main>
+{% block content %}
+<h2>Página Inicial</h2>
+<p>Bem-vindo ao site.</p>
 
-    <footer>
-      <p>Empresa Back-End</p>
-    </footer>
-  </body>
-</html>
+<p>-Conteúdo-</p>
+{% endblock %}

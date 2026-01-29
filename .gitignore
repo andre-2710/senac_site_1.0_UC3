@@ -214,3 +214,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Ambiente virtual
+venv/
+
+# Banco de dados local
+db.sqlite3
+
+# Arquivos Python compilados
+*.pyc
+__pycache__/
+
+# Configurações do editor
+.idea/
+.vscode/
